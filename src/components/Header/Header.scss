@@ -1,0 +1,26 @@
+/*Header*/
+
+.header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background: transparent;
+    padding: 20px 40px 20px 0px;
+}
+.nav__list{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav__item{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav__link{
+    color: #8ca7ce;
+}
+.nav__link:hover,
+.nav__link:focus{
+    color:#f2a278;
+}
+

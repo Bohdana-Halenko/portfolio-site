@@ -1,24 +1,24 @@
 import React from 'react';
-import s from './Header.module.css';
+import './Header.scss';
 
 const Header = () => (
-    <div>
-        <nav>
-            <ul className={s.nav__list}>
-                <li className={s.nav__item}>
-                    <a className={s.nav__link} href="/#">Home</a>
+    <div className='header'>
+        <nav className='nav'>
+            <ul className='nav__list'>
+                <li className='nav__item'>
+                    <a className='nav__link' href="/#">Home</a>
                 </li>
-                <li className={s.nav__item}>
-                    <a className={s.nav__link} href="/#">About me</a>
+                <li className='nav__item'>
+                    <a className='nav__link' href="/#">About</a>
                 </li>
-                <li className={s.nav__item}>
-                    <a className={s.nav__link} href="/#">Portfolio</a>
+                <li className='nav__item'>
+                    <a className='nav__link' href="/#">Portfolio</a>
                 </li>
-                <li className={s.nav__item}>
-                    <a className={s.nav__link} href="/#">Resume</a>
+                <li className='nav__item'>
+                    <a className='nav__link' href="/#">Resume</a>
                 </li>
-                <li className={s.nav__item}>
-                    <a className={s.nav__link} href="/#">Contacts</a>
+                <li className='nav__item'>
+                    <a className='nav__link' href="/#">Contacts</a>
                 </li>
             </ul>
         </nav>

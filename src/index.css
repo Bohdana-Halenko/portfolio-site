@@ -7,6 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #8ca7ce;
 }
 
 code {
@@ -20,4 +21,14 @@ li{
 a {
   text-decoration: none;
   cursor: pointer;
+}
+.title {
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(white,#f2a278);
+}
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
 }

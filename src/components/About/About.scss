@@ -1,0 +1,44 @@
+/*About*/
+
+.about__box{
+    margin: 50px auto;
+    max-width: 1150px;
+    background: #fff;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    padding: 50px 40px;
+}
+.about__title{
+   color: #000;
+}
+.about__row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about__box-me{
+    width: 50%;
+    margin-left: 20px;
+}
+.about__tech{
+    width: 30%;
+}
+.about__box-text{
+    font-size: 20px;
+}
+.about__bars{
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: #34313f;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.about__bar{
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ff43cb, #ff56a1, #ff7882, #ff9a74, #feb779);
+}
