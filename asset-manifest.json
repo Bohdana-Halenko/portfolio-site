@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.9e02128b.css",
-    "main.js": "/portfolio-site/static/js/main.408516d6.js",
+    "main.css": "/portfolio-site/static/css/main.6dba2667.css",
+    "main.js": "/portfolio-site/static/js/main.05bc037f.js",
     "static/media/photo.jpg": "/portfolio-site/static/media/photo.dca87108a54e7cca6474.jpg",
+    "static/media/bicycle.svg": "/portfolio-site/static/media/bicycle.1254d5ba91788980eba24e09eee79295.svg",
+    "static/media/cooking.svg": "/portfolio-site/static/media/cooking.e4574c7ff1fb0c97cda4683e3d49a819.svg",
+    "static/media/snorkeling.svg": "/portfolio-site/static/media/snorkeling.83e02f1b3fb247629988e131c23c87d7.svg",
+    "static/media/reading.svg": "/portfolio-site/static/media/reading.91a125dfa19119d09e67acc15e77b494.svg",
+    "static/media/travelling.svg": "/portfolio-site/static/media/travelling.e2dfdc42d6d3dff8eba7be4006849f73.svg",
     "index.html": "/portfolio-site/index.html",
-    "main.9e02128b.css.map": "/portfolio-site/static/css/main.9e02128b.css.map",
-    "main.408516d6.js.map": "/portfolio-site/static/js/main.408516d6.js.map"
+    "main.6dba2667.css.map": "/portfolio-site/static/css/main.6dba2667.css.map",
+    "main.05bc037f.js.map": "/portfolio-site/static/js/main.05bc037f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e02128b.css",
-    "static/js/main.408516d6.js"
+    "static/css/main.6dba2667.css",
+    "static/js/main.05bc037f.js"
   ]
 }
