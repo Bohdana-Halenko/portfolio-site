@@ -1,0 +1,31 @@
+//Portfolio
+
+.portfolio__box{
+    margin: 100px auto 50px;
+    max-width: 1150px;
+    background: #fff;
+    padding: 50px 40px;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.1) inset;
+    }
+    
+    //Shadow
+.portfolio__box:before,
+.portfolio__box:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    height: 20%;
+    max-width: 300px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    transform: rotate(-3deg);
+    }
+    
+.portfolio__box:after {
+    right: 10px;
+    left: auto;
+    transform: rotate(3deg);
+}
