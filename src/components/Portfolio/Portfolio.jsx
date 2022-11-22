@@ -3,7 +3,7 @@ import './Portfolio.scss';
 
 
 const Portfolio = () => (
-    <div className='portfolio container'>
+    <div className='portfolio container' id="portfolio">
         <div className='portfolio__box'>
             <h2 className='portfolio__title'>Portfolio</h2>
             

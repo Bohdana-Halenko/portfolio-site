@@ -1,19 +1,21 @@
 import React from 'react';
 import './Resume.scss';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-// import 'react-vertical-timeline-component/style.min.css';
 import { ReactComponent as EducationIcon } from '../../images/education.svg';
 import { ReactComponent as WorkIcon } from '../../images/work.svg';
+import { ReactComponent as Download } from '../../images/download.svg';
 
-// const buttonOnClick = () => {
-//     window.open(
-//         'https://drive.google.com/file/d/1ndscAS5yvPQ9FTSJokRaTljW2pDl9wvL/view?usp=sharing'
-//     );
-// }
+const buttonOnClick = () => {
+    window.open(
+        'https://drive.google.com/file/d/1ndscAS5yvPQ9FTSJokRaTljW2pDl9wvL/view?usp=sharing'
+    );
+}
     
 const Resume = () => (    
-    <div className='about container'>
-        <div className='resume__box'>
+    <div className='about container' id="resume">
+        <div className='about__box'>
+
+            <h2>My education and work experience</h2>
 
             <VerticalTimeline>
 
@@ -26,7 +28,7 @@ const Resume = () => (
                     <h3 className="vertical-timeline-element-title">Frontend Developre</h3>
                     <h4 className="vertical-timeline-element-subtitle">Freelance</h4>
                     <p>
-                    User Experience, Visual Design
+                    Layout, stylization, animation of site elements [React]
                     </p>
                 </VerticalTimelineElement>
 
@@ -39,7 +41,7 @@ const Resume = () => (
                     <h3 className="vertical-timeline-element-title">Frontend Developre</h3>
                     <h4 className="vertical-timeline-element-subtitle">Freelance</h4>
                     <p>
-                    Web store pages layout [HTML, CSS, JS]
+                    Layout of pages of the website for the sale of spare parts [HTML, CSS, JS]
                     </p>
                 </VerticalTimelineElement>
 
@@ -52,7 +54,7 @@ const Resume = () => (
                     <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
                     <h4 className="vertical-timeline-element-subtitle">Certification | IT school GoIT (online) </h4>
                     <p>
-                    Completed Full Stack Developer cours
+                    Completed Full Stack Developer course
                     </p>
                     <ul>
                         <li>HTML;</li>
@@ -96,13 +98,13 @@ const Resume = () => (
 </VerticalTimeline>
 
             
-            {/* <button
+            <button
                 className='resume__button'
                 onClick={buttonOnClick}
             >
                 Download CV
                 <Download />
-           </button> */}
+           </button>
         </div>
     </div>
 );

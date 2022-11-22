@@ -2,23 +2,23 @@ import React from 'react';
 import './Header.scss';
 
 const Header = () => (
-    <div className='header'>
+    <div className='header' id="hea">
         <nav className='nav'>
             <ul className='nav__list'>
                 <li className='nav__item'>
-                    <a className='nav__link' href="/#">Home</a>
+                    <a className='nav__link' href="/#home">Home</a>
                 </li>
                 <li className='nav__item'>
-                    <a className='nav__link' href="/#">About</a>
+                    <a className='nav__link' href="/#about">About</a>
                 </li>
                 <li className='nav__item'>
-                    <a className='nav__link' href="/#">Portfolio</a>
+                    <a className='nav__link' href="/#portfolio">Portfolio</a>
                 </li>
                 <li className='nav__item'>
-                    <a className='nav__link' href="/#">Resume</a>
+                    <a className='nav__link' href="/#resume">Resume</a>
                 </li>
                 <li className='nav__item'>
-                    <a className='nav__link' href="/#">Contacts</a>
+                    <a className='nav__link' href="/#contacts">Contacts</a>
                 </li>
             </ul>
         </nav>

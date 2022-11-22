@@ -1,31 +1,34 @@
-.resume__box{
-    margin: 50px auto;
-    max-width: 1150px;
-    background: rgb(255, 255, 255);
-    padding: 50px 40px;
-    position: relative;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.1) inset;
-}
-//Shadow
-.resume__box:before,
-.resume__box:after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    bottom: 15px;
-    left: 10px;
-    width: 50%;
-    height: 20%;
-    max-width: 300px;
-    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
-    transform: rotate(-3deg);
-}
+// .about__box{
+//     margin: 50px auto 80px;
+//     max-width: 1150px;
+//     background: rgb(255, 255, 255);
+//     padding: 50px 40px;
+//     position: relative;
+//     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.1) inset;
+// }
+// //Shadow
+// .about__box:before,
+// .about__box:after {
+//     content: "";
+//     position: absolute;
+//     z-index: -1;
+//     bottom: 15px;
+//     left: 10px;
+//     width: 50%;
+//     height: 20%;
+//     max-width: 300px;
+//     box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+//     transform: rotate(-3deg);
+// }
 
-.resume__box:after {
-    right: 10px;
-    left: auto;
-    transform: rotate(3deg);
-}
+// .about__box:after {
+//     right: 10px;
+//     left: auto;
+//     transform: rotate(3deg);
+// }
+
+
+
 // .vertical-timeline-element{
 //     background: #fff;
 // }

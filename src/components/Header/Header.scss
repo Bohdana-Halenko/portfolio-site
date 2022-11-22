@@ -1,12 +1,17 @@
 /*Header*/
 
-.header{
+#hea{
     position: fixed;
     right: 0;
     left: 0;
     z-index: 999;
     background: transparent;
     padding: 20px 40px 20px 0px;
+}
+.header#hea{
+    background-color: rgba(0, 12, 106, 0.8);
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
 .nav__list{
     display: flex;

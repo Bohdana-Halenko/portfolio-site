@@ -5,9 +5,9 @@ import './Footer.scss';
 
 const Footer = () => (
     <div className='footer'>
-        <div class="footer__wrap">
-            <p class="footer__text">Designed and built with love</p>
-            <div class="heart"></div>
+        <div className="footer__wrap">
+            <p className="footer__text">Designed and built with love</p>
+            <div className="heart"></div>
         </div>
     </div>
 );

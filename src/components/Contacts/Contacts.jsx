@@ -10,7 +10,7 @@ import { ReactComponent as Github } from '../../images/github.svg';
 
 
 const Contacts = () => (
-    <div className='about container'>
+    <div className='about container' id="contacts">
         <div className='about__box'>
             <h2>Contact me</h2>
             <ul className="contact__block">

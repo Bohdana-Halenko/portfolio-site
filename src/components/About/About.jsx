@@ -7,14 +7,14 @@ import Language from "./Languag/Language";
 
 
 const About = () => (
-    <div className='about container'>
+    <div className='about container' id="about">
         <div className='about__box'>
-            <div className='about__row'>
+            <div className='about__row'  data-aos='fade-right'>
                 <Tech />
                 <Me />
             </div>
 
-            <div className='about__row-me'>
+            <div className='about__row-me' data-aos="fade-left">
                 <Like />
                 <Language />
             </div>

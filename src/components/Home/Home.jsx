@@ -4,7 +4,7 @@ import photo from '../../images/photo.jpg';
 
 
 const Home = () => (
-    <div className='container'>
+    <div className='container' id="home">
         <div className='home__img background'>
             <div id="stars" />
             <div id="stars2" />
@@ -12,7 +12,7 @@ const Home = () => (
         </div>  
         
         <div className='home'>
-            <div className='home__box'>
+            <div className='home__box' >
                 <img src={photo} alt="User avatar" className='home__photo' />
             </div>
 
