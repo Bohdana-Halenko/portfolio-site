@@ -12,7 +12,7 @@ const Me = () => (
                         </div>
                         <div className='about__box-text'>
                             <span>Hi everybody :)</span>
-                            <p className='about__text'> 👋 I am a Front-end Developer and master HTML5, CSS3, JavaScript, React, Node.js.
+                            <p className='about__text'> 👋 I'm a Front-end Developer and master HTML5, CSS3, JavaScript, React, Node.js.
                             I have experience with implementing both individual and team projects.
                             I'm always open to learning about new opportunities.
                             It's important to me to grow as a Full-stack developer and put into practice my knowledge in all stack.
