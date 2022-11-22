@@ -19,7 +19,9 @@ const Home = () => (
             <div className='home__wrap'>
                 <h1 className='home__title title'>Hello, I'm Bohdana</h1>
                 <h2 className='home__text title'> Front-End Developer</h2>
-                <button className='home__button'>View my works</button>
+                <button className='home__button'>
+                    <a className='home__button-text' href="/#portfolio">View my works</a>
+                </button>
             </div>
         </div>       
     </div>

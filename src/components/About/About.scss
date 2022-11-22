@@ -33,6 +33,7 @@
 
 .about__title{
    color: #000;
+   text-transform: uppercase;
 }
 .about__row{
     display: flex;
@@ -163,7 +164,9 @@
     align-items: center;
 }
 
-
+.about__language-title{
+    text-transform: uppercase;
+}
 .about__language-bars {
     display: block;
     height: 4px;
@@ -215,4 +218,8 @@
 }
 .colom-second{
     margin-left: 50px;
+}
+
+.about__like-title{
+    text-transform: uppercase;
 }

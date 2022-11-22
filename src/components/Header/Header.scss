@@ -9,7 +9,8 @@
     padding: 20px 40px 20px 0px;
 }
 .header#hea{
-    background-color: rgba(0, 12, 106, 0.8);
+    background-color: #000520;
+    opacity: 0.8;
     padding-top: 9px;
     padding-bottom: 9px;
 }
@@ -23,6 +24,8 @@
 }
 .nav__link{
     color: #8ca7ce;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .nav__link:hover,
 .nav__link:focus{

@@ -15,7 +15,7 @@ const Resume = () => (
     <div className='about container' id="resume">
         <div className='about__box'>
 
-            <h2>My education and work experience</h2>
+            <h2 className='resume__title'>My education and work experience</h2>
 
             <VerticalTimeline>
 
@@ -56,7 +56,7 @@ const Resume = () => (
                     <p>
                     Completed Full Stack Developer course
                     </p>
-                    <ul>
+                    <ul className='resume-list'>
                         <li>HTML;</li>
                         <li>CSS;</li>
                         <li>JavaScript;</li>
@@ -73,7 +73,7 @@ const Resume = () => (
                 >
                     <h3 className="vertical-timeline-element-title">JSC 'UKRTELECOM'</h3>
                     <h4 className="vertical-timeline-element-subtitle">Chernihiv, Ukraine</h4>
-                    <ul>
+                    <ul className='resume-list'>
                         <li>accounting of non-current assets of the enterprise;</li>
                         <li>depreciation;</li>
                         <li>annual and technical inventory;</li>
@@ -99,7 +99,7 @@ const Resume = () => (
 
             
             <button
-                className='resume__button'
+                className='custom-btn btn-4'
                 onClick={buttonOnClick}
             >
                 Download CV
