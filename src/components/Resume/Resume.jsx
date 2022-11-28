@@ -99,10 +99,10 @@ const Resume = () => (
 
             
             <button
-                className='custom-btn btn-4'
+                className='resume-btn'
                 onClick={buttonOnClick}
             >
-                Download CV
+                <span>Download CV</span>
                 <Download />
            </button>
         </div>

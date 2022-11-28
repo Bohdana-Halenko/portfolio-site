@@ -19,7 +19,7 @@ const Home = () => (
             <div className='home__wrap'>
                 <h1 className='home__title title'>Hello, I'm Bohdana</h1>
                 <h2 className='home__text title'> Front-End Developer</h2>
-                <button className='home__button'>
+                <button className='resume-btn'>
                     <a className='home__button-text' href="/#portfolio">View my works</a>
                 </button>
             </div>
