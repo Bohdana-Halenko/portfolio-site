@@ -71,8 +71,8 @@ const Resume = () => (
                     iconStyle={{ background: 'rgb(24, 0, 157)', color: '#fff'}}
                     icon={<WorkIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title">JSC 'UKRTELECOM'</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Chernihiv, Ukraine</h4>
+                    <h3 className="vertical-timeline-element-title">Аccountant</h3>
+                    <h4 className="vertical-timeline-element-subtitle">JSC 'UKRTELECOM' | Chernihiv, Ukraine</h4>
                     <ul className='resume-list'>
                         <li>accounting of non-current assets of the enterprise;</li>
                         <li>depreciation;</li>
