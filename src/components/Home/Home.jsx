@@ -17,8 +17,12 @@ const Home = () => (
             </div>
 
             <div className='home__wrap'>
-                <h1 className='home__title title'>Hello, I'm Bohdana</h1>
-                <h2 className='home__text title'> Front-End Developer</h2>
+                <div className="text3d-wrap-1">
+                    <h1 className='text3d-1'>Hello, I'm Bohdana</h1>
+                </div>
+                
+                <h2 className='text-typing title'> Front-End Developer</h2>
+                
                 <button className='resume-btn'>
                     <a className='home__button-text' href="/#portfolio">View my works</a>
                 </button>

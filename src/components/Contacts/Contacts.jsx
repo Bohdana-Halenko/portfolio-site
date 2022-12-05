@@ -25,16 +25,18 @@ const Contacts = () => (
                                 <p className="contact__text">Chernihiv, Ukraine</p>
                             </div>
                         </a>
+
+                            
                     </li>
                     <li className="contact__item">
                         <a href="halenkobohdana@gmail.com" className="contact__link">
                             <div className="contact__item-icon-wrapper">
                                 <Email />
                             </div>
-                            <div>
-                                <p className="contact__text">Email Address</p>
-                                <p className="contact__text">halenkobohdana@gmail.com</p>
-                            </div>    
+                        <div>
+                            <p className="contact__text">Email Address</p>
+                            <p className="contact__text">halenkobohdana@gmail.com</p>
+                        </div>
                         </a>
                     </li>
                 </div>
@@ -43,12 +45,12 @@ const Contacts = () => (
                         <a href="https://www.linkedin.com/in/bohdanahalenko/" className="contact__link" >
                             <div className="contact__item-icon-wrapper">
                                 <Linkedin />
-                            </div>
+                            </div> 
                             <div>
                                 <p>Linkedin</p>
                                 <p className="contact__text">Bohdana Halenko | LinkedIn</p>
-                            </div>   
-                        </a>
+                            </div>
+                        </a>   
                     </li>
                     <li className="contact__item">
                         <a href="https://github.com/Bohdana-Halenko" className="contact__link" >
@@ -59,7 +61,6 @@ const Contacts = () => (
                                 <p className="contact__text">GitHub</p>
                                 <p className="contact__text">Bohdana-Halenko</p>
                             </div>
-                            
                         </a>
                     </li>
                 </div>

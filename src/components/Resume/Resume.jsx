@@ -9,6 +9,11 @@ const buttonOnClick = () => {
     window.open(
         'https://drive.google.com/file/d/1ndscAS5yvPQ9FTSJokRaTljW2pDl9wvL/view?usp=sharing'
     );
+};
+const buttonClick = () => {
+    window.open(
+        'https://drive.google.com/file/d/1AoXldTdJ8hQBrcEBRSUJkHuQfnk6yFwV/view?usp=sharing'
+    );
 }
     
 const Resume = () => (    
@@ -56,13 +61,17 @@ const Resume = () => (
                     <p>
                     Completed Full Stack Developer course
                     </p>
-                    <ul className='resume-list'>
-                        <li>HTML;</li>
-                        <li>CSS;</li>
-                        <li>JavaScript;</li>
-                        <li>React;</li>
-                        <li>Node</li>
-                    </ul>
+                    <div className='certificate'>
+                        <ul className='resume-list'>
+                            <li>HTML;</li>
+                            <li>CSS;</li>
+                            <li>JavaScript;</li>
+                            <li>React;</li>
+                            <li>Node</li>
+                        </ul>
+                        <button onClick={buttonClick}>Certificate</button>
+                    </div>
+                    
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
