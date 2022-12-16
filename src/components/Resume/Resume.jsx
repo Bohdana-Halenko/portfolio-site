@@ -69,7 +69,12 @@ const Resume = () => (
                             <li>React;</li>
                             <li>Node</li>
                         </ul>
-                        <button onClick={buttonClick}>Certificate</button>
+                        <button
+                            className='resume-btn'
+                            onClick={buttonClick}
+                        >
+                            View Certificate
+                        </button>
                     </div>
                     
                 </VerticalTimelineElement>
